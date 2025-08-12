@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Analyst - Breaking Markets News, Global Finance News and Economics Stories</title>
+
+	<!-- viewport for responsive -->	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- character set -->
+    <meta charset="UTF-8">
+  
+
+	<!-- CSS stylesheets -->	
+	<link href="/css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="/css/jqueryui.css" rel="stylesheet" type="text/css">
+	<link href="/css/styles.css" rel="stylesheet" type="text/css">
+	
+  </head>
+  <body>
+
+  <div class="header">
+
+    <img src="/img/analyst.png" id="westcoasttowallstreet">
+
+    <div class="tab">
+
+      <button class="tablinks" id="tab1" data-tab="tab1">Home</button>
+
+      <button class="tablinks" id="tab2" data-tab="tab2" id="news-btn">News</button>
+
+      <button class="tablinks" id="tab3" data-tab="tab3">About</button>
+
+      <button class="tablinks" id="tab4" data-tab="tab4"><img src="/img/send3.png" class="mini"> Subscribe </button>
+
+    </div>
+
+    <div class="menu-button">
+      <img src="/img/menu.png" id="openMenu" alt="Menu">
+    </div>
+
+  </div>
+
+  <div class="overlay"></div>
+
+    <div class="menu">
+
+      <img src="/img/exitmenu.png" id="closeMenu" alt="Close Menu" style="display: none;">
+
+      <button class="tablinks" id="home-btn-two" data-tab="tab1">Home</button>
+      <button class="tablinks" id="news-btn-two">News</button>
+      <button class="tablinks" id="about-btn-two" data-tab="tab3">About</button>
+      <button class="tablinks" data-tab="tab4">
+      
+      <div class="adjustsubscribebuttons">
+
+        <button class="tablinks" id="subscribe-btn-two" data-tab="tab4" style="margin-top: -20px; margin-bottom: -20px;">Subscribe </button>
+
+        <img src="/img/send2.jpg" class="adjustmini">
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="subheader">
+
+    <div class="dropdown-content" id="news-dropdown">
+
+      <div class="tab">
+
+        <button class="tablinks" id="subtab1" data-tab="subtab1">Markets</button>
+
+        <button class="tablinks" id="subtab2" data-tab="subtab2">Business</button>
+
+        <button class="tablinks" id="subtab3" data-tab="subtab3">Economics</button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="tradingview-widget-container">
+      <div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+      {
+      "symbols": [
+        {
+          "proName": "FOREXCOM:SPXUSD",
+          "title": "S&P 500 Index"
+        },
+        {
+          "description": "Dow Jones",
+          "proName": "FRED:DJIA"
+        },
+        {
+          "description": "NASDAQ",
+          "proName": "NASDAQ:NDX"
+        },
+        {
+          "description": "EUR to USD",
+          "proName": "FX_IDC:EURUSD"
+        },
+        {
+          "description": "Apple Inc.",
+          "proName": "NASDAQ:AAPL"
+        },
+        {
+          "description": "Microsoft Corp.",
+          "proName": "NASDAQ:MSFT"
+        },
+        {
+          "description": "Alphabet Inc.",
+          "proName": "NASDAQ:GOOGL"
+        },
+        {
+          "description": "Amazon.com Inc.",
+          "proName": "NASDAQ:AMZN"
+        },
+        {
+          "description": "Meta Platforms Inc.",
+          "proName": "NASDAQ:META"
+        },
+        {
+          "description": "JPMorgan Chase & Co.",
+          "proName": "NYSE:JPM"
+        },
+        {
+          "description": "Bank of America Corp.",
+          "proName": "NYSE:BAC"
+        },
+        {
+          "description": "Goldman Sachs Group Inc.",
+          "proName": "NYSE:GS"
+        },
+        {
+          "description": "Morgan Stanley",
+          "proName": "NYSE:MS"
+        },
+        {
+          "description": "Johnson & Johnson",
+          "proName": "NYSE:JNJ"
+        },
+        {
+          "description": "Pfizer Inc.",
+          "proName": "NYSE:PFE"
+        },
+        {
+          "description": "UnitedHealth Group Inc.",
+          "proName": "NYSE:UNH"
+        },
+        {
+          "description": "Tesla Inc.",
+          "proName": "NASDAQ:TSLA"
+        },
+        {
+          "description": "Nike Inc.",
+          "proName": "NYSE:NKE"
+        },
+        {
+          "description": "Home Depot Inc.",
+          "proName": "NYSE:HD"
+        },
+        {
+          "description": "Procter & Gamble Co.",
+          "proName": "NYSE:PG"
+        },
+        {
+          "description": "Coca-Cola Co.",
+          "proName": "NYSE:KO"
+        },
+        {
+          "description": "Boeing Co.",
+          "proName": "NYSE:BA"
+        },
+        {
+          "description": "General Electric Co.",
+          "proName": "NYSE:GE"
+        },
+        {
+          "description": "Exxon Mobil Corp.",
+          "proName": "NYSE:XOM"
+        }
+      ],
+      "showSymbolLogo": true,
+      "isTransparent": false,
+      "displayMode": "regular",
+      "colorTheme": "dark",
+      "locale": "en"
+    }
+      </script>
+  </div>
+    <!-- TradingView Widget END -->
+
+
+  <div id="disneyq3earnings" class="stories">
+
+    <div id="catagory">Media</div>
+
+    <div id="title">Disney beats earnings estimates as streaming unit turns a profit for the first time</div>
+
+    <div id="byline">By <u>Aidan Williams</u></div>
+
+    <div id="date">08/08/24 • 3 minute read</div>
+
+    <div id="stocks">In This Article: <u><a href="https://www.tradingview.com/symbols/NYSE-DIS/" style="color: #4169e1;" target="_blank">DIS</a></u></div>
+
+
+    <img src="/img/disney.jpg" id="storyphoto">
+
+    <div id="photocredit">Disneyland News Today</div>
+
+
+    <div id="bodytext">
+      
+    <p>BURBANK, CA — Disney reported its fiscal third-quarter earnings Wednesday, recording a profit from its combined streaming services for the first time while revealing a decline in the operating income of its parks division.</p>
+
+    <p>The company <a href="https://thewaltdisneycompany.com/disneys-q3-fy24-earnings-results-webcast/" style="color: #4169e1;" target="_blank">posted</a> revenue of $23.2 billion, exceeding the $23.1 billion analysts polled by Bloomberg had expected. Adjusted earnings per share for the quarter beat expectations at $1.39 per share versus the $1.19 previously forecasted.</p>
+
+    <p>Disney’s total segment operating income was $4.2 billion, a 19% increase compared with the prior year.</p>
+
+    <p>The company’s direct-to-consumer streaming business, which includes Disney+, Hulu and ESPN+, recorded operating income of $47 million, compared to a loss of $512 million in the prior-year period. Disney had previously expected its combined streaming services to achieve profitability by the current quarter.</p>
+
+    <p>Following the report’s release, shares of Disney increased slightly before slipping, ending the day down 4.5%. Coming into the results, Disney stock remained roughly unchanged this year.</p>
+
+    <p>Executives on Wednesday’s earnings call commended the progress of Disney’s streaming service toward profitability, an objective that has <a href="https://www.hollywoodreporter.com/business/business-news/hollywoods-elusive-goal-streaming-profits-1235668620/" style="color: #4169e1;" target="_blank">proved elusive</a> for media companies grappling to gain new subscribers as more consumers switch to streaming.</p>
+
+    <p>“Since my return, we've reset the whole business around economics designed to deliver significant, sustained profitability,” Disney CEO Bob Iger said on Wednesday’s call, “We're rationalizing the volume of content we make, what we spend, and what markets we invest in.”</p>
+
+    <img src="/img/disney2.jpg" id="bodyphoto">
+
+    <div id="photocredit">Outside Walt Disney Studios' main production lot in Burbank, CA. The company's theatrical unit performed well in Q3, driven by the "strong performance" of <i>Inside Out 2</i>. (photo credit: Ken Lund, Flickr).</div>
+
+    <p>Entertainment segment revenue increased 4% to $10.58 billion, driven largely by subscription revenue growth due to price hikes and customer growth for Disney+ Core subscribers – which excludes Disney+ Hotstar operating in India and the surrounding region. Linear entertainment revenue plummeted 7% as consumers continue to cancel cable subscriptions, leading advertising revenue to dry up.</p>
+
+    <p>Disney announced <a href="https://thewaltdisneycompany.com/disney-streaming-playlists/" style="color: #4169e1;" target="_blank">further streaming price hikes</a> Tuesday in a bid to “improve margins over the coming years”.</p>
+
+    <p>“We’re seeing growth in consumption and the popularity of our offerings, which gives us the pricing leverage that we believe we have,” Iger said during the call, “Every time we've taken a price increase, we've had only modest churn from that, nothing that we would consider significant.”</p>
+
+    <p>In addition to expanding the availability of ad-supported streaming plan options, Iger announced the company’s plans to grow profitability by cracking down on password sharing, a method Netflix recently found success with.</p>
+
+    <p>Revenue from ESPN’s domestic and international business grew by 5% thanks to a 17% increase in domestic advertising and subscription growth. ESPN’s operating income increased 4% to $1.1 billion. Disney’s regional sports streaming service Star India posted weaker results than the year prior due to increased programming and production costs, resulting in overall sports segment operating income declining 6%.</p>
+
+    <p>The company’s content sales and licensing operating income ballooned to $254 million from a loss of $112 million in the prior-year-period due to the “strong performance” of <i>Inside Out 2</i>. Disney is expected to continue commanding the box office later this year with the release of <i>Moana 2</i> and <i>Mufasa: The Lion King</i>.</p>
+
+    <p>Thanks to “strong consolidated” performance in the prior quarter, Disney raised its full-year adjusted EPS growth target to 30%, up from the 25% announced in Q2. Disney said it remains “on track” to improve the profitability of its direct-to-consumer streaming business and expects DTC Entertainment and ESPN+ to be profitable in the fourth quarter.</p>
+
+    <p>“The portfolio is working well,” Disney CFO Hugh Johnston said in a separate interview, “There was softness in the domestic parks, but the entertainment division’s profit tripled in the quarter.”</p>
+
+    <div id="subheader">Theme Park 'Decline'</div>
+
+    <p>While Disney’s entertainment, sports and content sales divisions posted better-than-expected earnings, the company’s U.S. parks business dragged the top and bottom line.</p>
+
+    <p>Disney’s domestic parks division saw a 6% decrease in operating income compared to the prior year, which the company attributed to higher operating costs due to inflation, increased technological spending and a “moderation of consumer demand” toward the end of the quarter.</p>
+
+    <p>“The lower-income consumer is feeling a little bit of stress. The high-income consumer is traveling internationally a bit more,” Disney CFO Hugh Johnston said on Wednesday’s call, noting that the company expects trends in spending habits to continue impacting domestic consumer demand this upcoming quarter.</p>
+
+    <p>The overall experiences unit, which includes domestic and international parks and consumer products, grew by 2% to $8.4 billion.</p>
+
+    <p>Last month’s Comcast earnings were <a href="https://finance.yahoo.com/news/comcast-cmcsa-q2-earnings-beat-153500336.html" style="color: #4169e1;" target="_blank">similarly burdened</a> by the company’s parks division, with Universal theme parks suffering from declining international tourism. Despite facing headwinds, Comcast executives said they remained “bullish” on the business, with the company set to open a new Orlando park in 2025.</p>
+
+    <p>Disney expects experience segment operating income to decline by “mid-single digits” in the upcoming quarter thanks to a reduction in “normal consumer travel” to Disneyland Paris due to the Olympics and “cyclical softening” in China.</p>
+
+    <p>“Our parks and experience segment overall has had an impressive streak and will continue to be a key growth engine for the company, even as we navigate the cycles that come with operating this business,” said Iger on the earnings call.</p>
+
+    </div>
+
+  </div>
+
+
+
+  <!-- Footer!!!! -->
+
+
+  <div class="footer">
+
+    <img src="/img/analyst.png" id="footerimg">
+
+    <div class="address">
+
+      <h6>3470 Trousdale Parkway</h6>
+
+      <h6>Los Angeles, CA 90089</h6>
+
+      <h6>theanalystam@gmail.com</h6>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- JAVASCRIPT -->
+	<script src="/js/jquery.js"></script>
+	<script src="/js/jqueryui.js"></script>
+  <script src="/js/lib/waypoints.min.js"></script>  
+  <script src="/js/lib/waypoints-sticky.min.js"></script>  	
+	<script src="/js/script.js"></script>
+  </body>
+</html>
+
+
+<!-- photos courtesy of Sarah Soutoul (copyright) -->
+<!-- soar.mp4 courtesy of Keith Plocek (copyright) -->
