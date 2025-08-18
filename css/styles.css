@@ -21,7 +21,7 @@ img {
 }
 
 body {
-   background-color: #262626;
+   background-color: #1C1C1C;
 }
 
 
@@ -351,7 +351,7 @@ body {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #373737;
+    background-color: #262626;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     top: 50;
     left: 725px;
@@ -370,7 +370,7 @@ body {
 }
 
 .dropdown-content .tab .tablinks {
-    background-color: #1e222d;
+    background-color: #262626;
     color: #4169e1;
     border: none;
     padding: 10px 20px;
@@ -396,7 +396,7 @@ body {
 /*News Letter Ad*/
 .newsletterad {
    position: relative;
-   background-color: #1e222d;
+   background-color: #262626;
    width: 50%;
    height: 450px;
    left: 40px;
@@ -470,7 +470,7 @@ h4 {
    margin-top: -420px;
    width: 35%;
    height: 400px;
-   background-color: #2a2e38;
+   background-color: #262626;
    cursor: pointer;
    color: whitesmoke;
 
@@ -505,7 +505,7 @@ h6 {
     align-items: center;
     width: 100%;
     padding: 1% 2%;
-    background-color: #1e222d;
+    background-color: #1C1C1C;
     height: auto;
     margin-top: 500px;
     box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.2);
@@ -1058,7 +1058,7 @@ h10 {
 .newslettersubscribe {
    width: 70%;
    height: 750px;
-   background-color: #1e222d;
+   background-color: #1C1C1C;
    margin: 0 auto;
    padding-top: 5px;
    margin-top: 30px;
@@ -1303,7 +1303,7 @@ h10 {
     left: -33%;
     width: 33%;
     height: 100%;
-    background-color: #1e222d;
+    background-color: #1C1C1C;
     padding-top: 50px;
     transition: left 0.3s ease;
     display: flex;
