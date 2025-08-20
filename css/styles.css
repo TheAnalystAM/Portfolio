@@ -940,7 +940,7 @@ h5 {
 .aboutcontent {
    margin-left: 35px;
    display: inline-grid;
-   grid-template-columns: 43% 57%;
+   grid-template-columns: 50% 50%;
    row-gap: 10px;
    padding-top: 20px;
 }
@@ -950,11 +950,10 @@ h5 {
    word-wrap: normal;
 }
 
-.aboutcontent img {
+.abouttext img {
    width: 100%;
-   height: fit-content;
+   height: 100%;
    justify-self: center;
-   padding-top: 30px;
 }
 
 #tab3 hr {
