@@ -939,6 +939,7 @@ h5 {
 
 .aboutcontent {
    margin-left: 35px;
+   margin-left: 35px;
    display: grid;
    grid-template-columns: 1fr 1fr;
    row-gap: 50px;
