@@ -906,25 +906,10 @@ $(document).ready(function(){ // begin document.ready block
       // NEWS (+ Dropdown Menu)
 
    $('#tab2').click(function(){
-        if ($(window).width() > 1087) {
-            $('.dropdown-content').toggle(); // Toggle visibility of #news-dropdown
-        } else {
-            window.location.href = '/tabs/news/'; // Redirect to the stories/news folder
-        }
-    });
-
-   $('.dropdown-content').hide();
-
-   function checkWidth() {
-        if ($(window).width() < 1087) { 
-            $('.dropdown-content').hide(); 
-        }
-   }
-
-   $(window).resize(function() {
       
-        checkWidth();
-   });
+        window.location.href = "/about/";
+
+    });
 
    
 
@@ -941,7 +926,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#tab3').click(function(){
 
-      window.location.href = "/tabs/about/";
+      window.location.href = "/awards/";
 
    });
 
@@ -979,7 +964,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#tab4').click(function(){
 
-      window.location.href = "/tabs/subscribe/";
+      window.location.href = "/portfolio/";
 
    });
 
