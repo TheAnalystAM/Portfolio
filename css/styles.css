@@ -942,7 +942,7 @@ h5 {
   grid-template-columns: 1fr 1fr; /* two equal columns */
   column-gap: 35px; /* space between text and image */
   margin: 0 35px; /* space between content and page edge */
-  align-items: center; /* vertically align text and image */
+  align-items: start; /* vertically align text and image */
 }
 
 .abouttextabout {
