@@ -1116,7 +1116,7 @@ $(document).ready(function(){ // begin document.ready block
 
     $('#news-btn-two').click(function(){
 
-       window.location.href = "/tabs/news/";
+       window.location.href = "/about/";
 
     });
 
@@ -1128,13 +1128,13 @@ $(document).ready(function(){ // begin document.ready block
 
     $('#about-btn-two').click(function(){
 
-       window.location.href = "/tabs/about/";
+       window.location.href = "/awards/";
 
     });
 
     $('#subscribe-btn-two').click(function(){
 
-       window.location.href = "/tabs/subscribe/";
+       window.location.href = "/portfolio/";
 
     });
 
