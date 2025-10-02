@@ -973,10 +973,23 @@ h5 {
    word-wrap: normal;
 }
 
-.abouttext img,
-.aboutcontent img {
+.abouttext img {
    width: 100%;
    height: auto;
+   display: block;
+   justify-self: center;
+}
+
+
+
+.abouttextoops {
+   width: 100%;
+   word-wrap: normal;
+}
+
+.abouttextoops img {
+   width: 683px;
+   height: 1024px;
    display: block;
    justify-self: center;
 }
@@ -1556,6 +1569,10 @@ h10 {
     }
 
     .abouttext {
+        width: 90%;
+    }
+
+   .abouttextoops {
         width: 90%;
     }
 
