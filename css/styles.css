@@ -973,10 +973,11 @@ h5 {
    word-wrap: normal;
 }
 
-.abouttext img {
+.abouttext img,
+.aboutcontent img {
    width: 100%;
-   height: 683px;
    height: auto;
+   display: block;
    justify-self: center;
 }
 
@@ -1556,12 +1557,6 @@ h10 {
 
     .abouttext {
         width: 90%;
-    }
-
-    .aboutcontent img {
-        position: flex;
-        width: 100%;
-        padding-right: 50px;
     }
 
     .bios {
