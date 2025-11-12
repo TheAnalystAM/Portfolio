@@ -19,19 +19,19 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#headline1').click(function(){
       
-        window.location.href = "/stories/markets/moditrump";
+        window.location.href = "/stories/markets/airlinedisruptions";
       
    });
 
    $('#headline2').click(function(){
       
-        window.location.href = "/stories/markets/jacksonhole";
+        window.location.href = "/stories/markets/healthcarefundingcuts";
       
    });
 
    $('#headline3').click(function(){
       
-        window.location.href = "/stories/markets/julyinflation";
+        window.location.href = "/stories/markets/uschinatrust";
       
    });
    
