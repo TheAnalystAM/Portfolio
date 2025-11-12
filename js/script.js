@@ -66,7 +66,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#toppicksstories1').click(function(){
       
-        window.location.href = "https://www.tiktok.com/@aidanwilliamstv/video/7535201050551258399";
+        window.location.href = "https://www.tiktok.com/@aidanwilliamstv/video/7548491500175265055";
       
    });
    
