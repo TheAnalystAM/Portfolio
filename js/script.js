@@ -9,11 +9,11 @@ $(document).ready(function(){ // begin document.ready block
 
    // NEWS TEASER
    
-   $('.topnewsteaser').click(function(){
+   // $('.topnewsteaser').click(function(){
       
-        window.location.href = "/stories/politics/executivepower";
+   //      window.location.href = "/stories/politics/executivepower";
       
-   });
+   // });
 
    // HEADLINES
 
