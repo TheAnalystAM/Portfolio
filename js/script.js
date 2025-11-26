@@ -40,7 +40,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories1').click(function(){
       
-        window.location.href = "/stories/politics/educationcuts";
+        window.location.href = "/stories/markets/alibabachina";
       
    });
    
