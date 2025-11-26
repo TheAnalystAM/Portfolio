@@ -58,7 +58,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#thelateststories4').click(function(){
       
-        window.location.href = "/stories/politics/executivepower";
+        window.location.href = "/stories/politics/trumpjrventures";
       
    });
    
