@@ -46,13 +46,13 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories2').click(function(){
       
-        window.location.href = "/stories/markets/eurodefense";
+        window.location.href = "/stories/markets/palantirvalue";
       
    });
    
    $('#thelateststories3').click(function(){
       
-        window.location.href = "/stories/business/cancervaccines";
+        window.location.href = "/stories/markets/eurodefense";
       
    });
 
