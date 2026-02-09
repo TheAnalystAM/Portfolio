@@ -197,17 +197,29 @@
 
   <div class = "topcontent">
 
-    <video id = specialsvideo src="/video/spoilsofwar.mp4" type="video/mp4" autoplay loop muted>
-      
-    </video>
-
-    <div class=specialscontent>
-
-      <h5 class="specialsheader">Trump, Inc.</h5>
-
-      <div class = "specialdescription">Trump Jr. is a magnet for MAGA capital. His ventures are faltering.</div>
-
-    </div>
+	  <video
+	  id="specialsvideo"
+	  src="/video/trumpjrreel.mp4"
+	  autoplay
+			>
+	  </video>
+	
+	  <script>
+	  const video = document.getElementById('specialsvideo');
+	
+	  video.addEventListener('ended', () => {
+	    video.muted = true;
+	    video.play();
+	  });
+	  </script>
+	
+	  <div class=specialscontent>
+	
+	      <h5 class="specialsheader">Trump, Inc.</h5>
+	
+	    <div class = "specialdescription">Trump Jr. is a magnet for MAGA capital. His ventures are faltering.</div>
+	
+	  </div>
 
   </div>
 
