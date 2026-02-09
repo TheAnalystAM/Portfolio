@@ -1217,6 +1217,17 @@ $(document).ready(function(){ // begin document.ready block
     $('.newslettersubscribe').css('height', '700px');
 
     });
+
+    const video = document.getElementById('specialsvideo');
+    let hasPlayedOnce = false;
+
+    video.addEventListener('ended', () => {
+      if (!hasPlayedOnce) {
+        hasPlayedOnce = true;
+        video.muted = true;
+        video.play();
+      }
+    });
    
 
 
