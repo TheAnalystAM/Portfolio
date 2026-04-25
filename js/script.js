@@ -20,10 +20,7 @@ $(document).ready(function(){ // begin document.ready block
           video.paused ? video.play() : video.pause();
         });
 
-        video.addEventListener("ended", function () {
-          video.currentTime = 0;
-          video.play(); // keeps it truly "paused" after ending
-        });
+        video.loop = true;
 
    }
 
