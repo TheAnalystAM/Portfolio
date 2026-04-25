@@ -13,7 +13,7 @@ $(document).ready(function(){ // begin document.ready block
    if (video) {
      video.addEventListener("click", function () {
        if (video.paused) {
-         video.play();
+         video.play().catch(err => console.log("Play failed:", err));
        } else {
          video.pause();
        }
