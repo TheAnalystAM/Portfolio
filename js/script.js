@@ -10,14 +10,20 @@ $(document).ready(function(){ // begin document.ready block
    
    const video = document.getElementById("myVideo");
 
-   video.addEventListener("click", function () {
-     video.play();
-   });
+   if (video) {
+     video.addEventListener("click", function () {
+       if (video.paused) {
+         video.play();
+       } else {
+         video.pause();
+       }
+     });
 
-   video.addEventListener("ended", function () {
-     video.currentTime = 0;
-     video.play();
-   });
+  // keep your looping behavior
+  video.addEventListener("ended", function () {
+    video.currentTime = 0;
+    video.play();
+  });
 
    // NEWS TEASER
    
