@@ -26,8 +26,8 @@ $(document).ready(function(){ // begin document.ready block
 
    // ------------------
 
-   const video = document.getElementById("myVideo");
-   const button = document.getElementById("playBtn");
+   const video = document.getElementById("digital");
+   const button = document.getElementById("digitalplaybtn");
 
    const segmentLength = 5; // seconds
    let segmentIndex = 0;
