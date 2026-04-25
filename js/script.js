@@ -22,7 +22,7 @@ $(document).ready(function(){ // begin document.ready block
 
         video.addEventListener("ended", function () {
           video.currentTime = 0;
-          video.pause(); // keeps it truly "paused" after ending
+          video.play(); // keeps it truly "paused" after ending
         });
 
    }
