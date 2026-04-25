@@ -26,7 +26,7 @@ $(document).ready(function(){ // begin document.ready block
 
    // ------------------
 
-   const video = document.getElementById("digital");
+   const video = document.getElementById("digitalvideo");
    const button = document.getElementById("digitalplaybtn");
 
    const segmentLength = 5; // seconds
