@@ -11,21 +11,21 @@ $(document).ready(function(){ // begin document.ready block
    const video = document.getElementById("myVideo");
 
    if (video) {
-    video.addEventListener("loadedmetadata", function () {
-     video.addEventListener("click", function () {
-       if (video.paused) {
-         video.play().catch(err => console.log("Play failed:", err));
-       } else {
-         video.pause();
-       }
-     });
 
-  // keep your looping behavior
-     video.addEventListener("ended", function () {
-       video.currentTime = 0;
-       video.play();
-     });
-    });
+  // Force initial state
+        video.pause();
+        video.currentTime = 0;
+
+        video.addEventListener("click", function () {
+          video.paused ? video.play() : video.pause();
+        });
+
+        video.addEventListener("ended", function () {
+          video.currentTime = 0;
+          video.pause(); // keeps it truly "paused" after ending
+        });
+
+   }
 
    // NEWS TEASER
    
