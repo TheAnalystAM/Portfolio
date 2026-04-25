@@ -11,6 +11,7 @@ $(document).ready(function(){ // begin document.ready block
    const video = document.getElementById("myVideo");
 
    if (video) {
+    video.addEventListener("loadedmetadata", function () {
      video.addEventListener("click", function () {
        if (video.paused) {
          video.play().catch(err => console.log("Play failed:", err));
@@ -20,10 +21,11 @@ $(document).ready(function(){ // begin document.ready block
      });
 
   // keep your looping behavior
-  video.addEventListener("ended", function () {
-    video.currentTime = 0;
-    video.play();
-  });
+     video.addEventListener("ended", function () {
+       video.currentTime = 0;
+       video.play();
+     });
+    });
 
    // NEWS TEASER
    
