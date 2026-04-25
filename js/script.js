@@ -6,6 +6,23 @@
 
 $(document).ready(function(){ // begin document.ready block
 
+   // CAPSTONE
+   
+   <script>
+     const video = document.getElementById("myVideo");
+
+     video.addEventListener("click", function () {
+       if (video.paused) {
+       video.play();
+    }
+  });
+
+  // Loop automatically after it finishes
+  video.addEventListener("ended", function () {
+    video.currentTime = 0;
+    video.play();
+  });
+  </script>
 
    // NEWS TEASER
    
