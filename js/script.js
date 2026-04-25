@@ -8,7 +8,7 @@ $(document).ready(function(){ // begin document.ready block
 
    // CAPSTONE
    
-   const video = document.getElementById("myVideo");
+   const myVideo = document.getElementById("myVideo");
 
    if (video) {
 
@@ -26,7 +26,7 @@ $(document).ready(function(){ // begin document.ready block
 
    // ------------------
 
-   const video = document.getElementById("digitalvideo");
+   const digitalvideo = document.getElementById("digitalvideo");
    const button = document.getElementById("digitalplaybtn");
 
    const segmentLength = 5; // seconds
