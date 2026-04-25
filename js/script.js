@@ -29,21 +29,26 @@ $(document).ready(function(){ // begin document.ready block
    const digitalvideo = document.getElementById("digitalvideo");
    const button = document.getElementById("digitalplaybtn");
 
-   const segmentLength = 5; // seconds
+   const segmentLength = 5;
    let segmentIndex = 0;
+   let stopTime = 0;
 
-   button.addEventListener("click", () => {
-  // set start time for this segment
-      digitalvideo.currentTime = segmentIndex * segmentLength;
+   if (digitalvideo && button) {
+      button.addEventListener("click", () => {
+         const startTime = segmentIndex * segmentLength;
+         stopTime = startTime + segmentLength;
 
-      digitalvideo.play();
+         digitalvideo.currentTime = startTime;
+         digitalvideo.play();
+      });
 
-  // stop after 5 seconds
-      setTimeout(() => {
-          digitalvideo.pause();
-          segmentIndex++;
-      }, segmentLength * 1000);
-   });
+      digitalvideo.addEventListener("timeupdate", () => {
+         if (digitalvideo.currentTime >= stopTime) {
+            digitalvideo.pause();
+            segmentIndex++;
+         }
+      });
+   }
 
    // NEWS TEASER
    
