@@ -24,6 +24,27 @@ $(document).ready(function(){ // begin document.ready block
 
    }
 
+   // ------------------
+
+   const video = document.getElementById("myVideo");
+   const button = document.getElementById("playBtn");
+
+   const segmentLength = 5; // seconds
+   let segmentIndex = 0;
+
+   button.addEventListener("click", () => {
+  // set start time for this segment
+      video.currentTime = segmentIndex * segmentLength;
+
+      video.play();
+
+  // stop after 5 seconds
+      setTimeout(() => {
+          video.pause();
+          segmentIndex++;
+      }, segmentLength * 1000);
+   });
+
    // NEWS TEASER
    
    // $('.topnewsteaser').click(function(){
