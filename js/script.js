@@ -30,23 +30,18 @@ $(document).ready(function(){ // begin document.ready block
    const button = document.getElementById("digitalplaybtn");
 
    const segmentLength = 5;
-   let segmentIndex = 0;
-   let stopTime = 0;
+   let timeoutId;
 
    if (digitalvideo && button) {
       button.addEventListener("click", () => {
-         const startTime = segmentIndex * segmentLength;
-         stopTime = startTime + segmentLength;
+       // clear any previous timer
+         clearTimeout(timeoutId);
 
-         digitalvideo.currentTime = startTime;
          digitalvideo.play();
-      });
 
-      digitalvideo.addEventListener("timeupdate", () => {
-         if (digitalvideo.currentTime >= stopTime) {
+         timeoutId = setTimeout(() => {
             digitalvideo.pause();
-            segmentIndex++;
-         }
+         }, segmentLength * 1000);
       });
    }
 
