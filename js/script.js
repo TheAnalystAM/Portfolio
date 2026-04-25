@@ -10,17 +10,17 @@ $(document).ready(function(){ // begin document.ready block
    
    const myVideo = document.getElementById("myVideo");
 
-   if (video) {
+   if (myVideo) {
 
   // Force initial state
-        video.pause();
-        video.currentTime = 0;
+        myVideo.pause();
+        myVideo.currentTime = 0;
 
-        video.addEventListener("click", function () {
-          video.paused ? video.play() : video.pause();
+        myVideo.addEventListener("click", function () {
+          myVideo.paused ? myVideo.play() : myVideo.pause();
         });
 
-        video.loop = true;
+        myVideo.loop = true;
 
    }
 
@@ -34,13 +34,13 @@ $(document).ready(function(){ // begin document.ready block
 
    button.addEventListener("click", () => {
   // set start time for this segment
-      video.currentTime = segmentIndex * segmentLength;
+      digitalvideo.currentTime = segmentIndex * segmentLength;
 
-      video.play();
+      digitalvideo.play();
 
   // stop after 5 seconds
       setTimeout(() => {
-          video.pause();
+          digitalvideo.pause();
           segmentIndex++;
       }, segmentLength * 1000);
    });
