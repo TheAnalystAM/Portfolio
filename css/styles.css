@@ -265,7 +265,7 @@ body {
 .specialsheader {
     font-family: 'Avenir', sans-serif;
     color: whitesmoke;
-    font-size: 7em;
+    font-size: 4em;
     font-weight: bold;
     text-align: center;
     z-index: 2;
@@ -1691,7 +1691,7 @@ h10 {
    }
 
    .specialsheader {
-    font-size: 4em;
+    font-size: 1em;
 /*    MARK*/
    }
    
@@ -1700,7 +1700,7 @@ h10 {
 
 @media (max-width: 930px) {
     .specialsheader {
-    font-size: 4em;
+    font-size: 2em;
    }
 /*   MARK*/
     
@@ -1765,7 +1765,7 @@ h10 {
    }
 
    .specialsheader {
-    font-size: 3em;
+    font-size: 1em;
 /*    MARK*/
    }
 
