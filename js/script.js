@@ -45,6 +45,26 @@ $(document).ready(function(){ // begin document.ready block
       });
    }
 
+   // -----------------------
+
+   const digitalvideo2 = document.getElementById("digitalvideo2");
+   const button2 = document.getElementById("digitalplaybtn2");
+
+   const segmentLength2 = 5;
+   let timeoutId2;
+
+   if (digitalvideo2 && button2) {
+     button2.addEventListener("click", () => {
+       clearTimeout(timeoutId2);
+
+       digitalvideo2.play();
+
+       timeoutId2 = setTimeout(() => {
+         digitalvideo2.pause();
+       }, segmentLength2 * 1000);
+     });
+   }
+
    // NEWS TEASER
    
    // $('.topnewsteaser').click(function(){
