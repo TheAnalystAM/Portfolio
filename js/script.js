@@ -77,7 +77,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#headline1').click(function(){
       
-        window.location.href = "/stories/markets/trumpjrventures";
+        window.location.href = "https://aidanwilliamstv.com/stories/markets/trumpjrventures/";
       
    });
 
@@ -98,25 +98,25 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories1').click(function(){
       
-        window.location.href = "/stories/markets/alibabachina";
+        window.location.href = "https://aidanwilliamstv.com/stories/markets/alibabachina/";
       
    });
    
    $('#thelateststories2').click(function(){
       
-        window.location.href = "/stories/markets/palantirvalue";
+        window.location.href = "https://aidanwilliamstv.com/stories/markets/palantirvalue/";
       
    });
    
    $('#thelateststories3').click(function(){
       
-        window.location.href = "/stories/markets/eurodefense";
+        window.location.href = "https://aidanwilliamstv.com/stories/markets/eurodefense/";
       
    });
 
    $('#thelateststories4').click(function(){
       
-        window.location.href = "/stories/markets/trumpjrventures";
+        window.location.href = "https://aidanwilliamstv.com/stories/markets/trumpjrventures/";
       
    });
    
