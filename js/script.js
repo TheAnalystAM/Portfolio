@@ -77,7 +77,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#headline1').click(function(){
       
-        window.location.href = "/stories/markets/airlinedisruptions";
+        window.location.href = "/stories/markets/trumpjrventures";
       
    });
 
