@@ -133,6 +133,12 @@ body {
    margin-top: 50px;
 }
 
+#bodyphoto3 {
+   height: auto;
+   width: 40%;
+   margin-top: 50px;
+}
+
 #subheader {
    padding-top: 5px;
    font-size: 1.5em;
