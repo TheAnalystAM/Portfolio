@@ -951,7 +951,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#tab1').click(function(){
 
-      window.location.href = "/";
+      window.location.href = "https://aidanwilliamstv.com/";
 
    });
 
@@ -965,7 +965,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#tab2').click(function(){
       
-        window.location.href = "/about/";
+        window.location.href = "https://aidanwilliamstv.com/about/";
 
     });
 
@@ -984,7 +984,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#tab3').click(function(){
 
-      window.location.href = "/awards/";
+      window.location.href = "https://aidanwilliamstv.com/awards/";
 
    });
 
@@ -1022,7 +1022,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#tab4').click(function(){
 
-      window.location.href = "/portfolio/";
+      window.location.href = "https://aidanwilliamstv.com/portfolio/";
 
    });
 
